@@ -1,8 +1,10 @@
 # MechaCar_Statistical_Analysis
 
 ## Project Overview
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
 ## Resources
+Data: MechaCar_mpg.csv, Suspension_Coil.csv
 
 ## Results 
 
@@ -34,5 +36,40 @@ For this section, I analyzed 2 summary tables to look at the mean, median, varia
 
 ### Deliverable 3: T-Test on Suspension Coils
 
+![del3.1](images/del3.1.png)
 
-### Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+Complete Suspension data t-test has a mean of 1498.78 with a p-value of 0.06.
+
+![del3.2](images/del3.2.png)
+
+Lot1 data t-test has a mean of 1500 and a p-value of 1. This means Lot1 appears to have no differences from the population mean. 
+
+![del3.3](images/del3.3.png)
+
+Lot2 data has a mean of 1500.2 and a p-value of 0.61. This means Lot2 appears to have statistically small difference from the population mean. 
+
+![del3.4](images/del3.4.png)
+
+Lot3 data has a mean of 1496.14 and a p-value of 0.04. The p-value is below the significant value of 0.05. This means that the PSI in lot3 statistically differs from the population mean. 
+
+### Deliverable 4: Study Design: MechaCar vs Competition
+Perform an analysis on MechaCar compared to a competitor based on overall performance. 
+
+* What metric or metrics are you going to test?
+  I would look into referencing data from a source like Consumer Reports.
+  
+  - Cost
+  - Safety Rating
+  - Predicted Reliability
+  - Road Test Score 
+  
+* What is the null hypothesis or alternative hypothesis?
+  Null Hypothesis: Based on performance metrics, MechaCar will perform the same as the competition. 
+
+  Alternative Hypothesis: Based on performace metrics, MechaCar will perform better than the competition. 
+
+* What statistical test would you use to test the hypothesis? And why?
+  I would perform a muliple linear regression and a t-test. This would show which variables correlate with overall performance. 
+  
+* What data is needed to run the statistical test?
+  Data from MechaCar and a competitior for several years for Costs, safety ratings, reliability over time, and a score showing the cars performance on the road. This data is an example found from consumerreports.org. 

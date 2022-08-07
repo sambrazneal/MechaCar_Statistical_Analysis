@@ -56,6 +56,7 @@ Lot3 data has a mean of 1496.14 and a p-value of 0.04. The p-value is below the 
 Perform an analysis on MechaCar compared to a competitor based on overall performance. 
 
 * What metric or metrics are you going to test?
+  
   I would look into referencing data from a source like Consumer Reports.
   
   - Cost
@@ -64,12 +65,15 @@ Perform an analysis on MechaCar compared to a competitor based on overall perfor
   - Road Test Score 
   
 * What is the null hypothesis or alternative hypothesis?
+ 
   Null Hypothesis: Based on performance metrics, MechaCar will perform the same as the competition. 
 
   Alternative Hypothesis: Based on performace metrics, MechaCar will perform better than the competition. 
 
 * What statistical test would you use to test the hypothesis? And why?
+  
   I would perform a muliple linear regression and a t-test. This would show which variables correlate with overall performance. 
   
 * What data is needed to run the statistical test?
+  
   Data from MechaCar and a competitior for several years for Costs, safety ratings, reliability over time, and a score showing the cars performance on the road. This data is an example found from consumerreports.org. 
